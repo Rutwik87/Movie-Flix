@@ -87,7 +87,6 @@ extension HomeViewController: UICollectionViewDelegateFlowLayout {
         } else {
             return CGSize(width: view.frame.size.width - 40, height: 300)
         }
-        
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {

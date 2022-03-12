@@ -45,7 +45,7 @@ class DetailsViewController: UIViewController {
             imgView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
         ])
         NSLayoutConstraint.activate([
-            closeBtn.topAnchor.constraint(equalTo: view.topAnchor,constant: 20),
+            closeBtn.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor,constant: 20),
             closeBtn.rightAnchor.constraint(equalTo: view.rightAnchor,constant: -20)
         ])
         
